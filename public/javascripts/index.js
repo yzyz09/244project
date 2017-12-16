@@ -78,7 +78,7 @@ $(document).ready(function () {
         console.log('send message success');
       }
 
-      if (!obj.time || !obj.number) {
+      if (!obj.time || !obj.temperature) {
         return;
       }
       timeData.push(obj.time);
